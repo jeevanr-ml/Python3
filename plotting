@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+x=([20,25,35,40,43,47])
+y=([1990,1995,2000,2005,2010,2015])
+plt.plot(x,y , marker='o',color='r',linestyle=':')
+plt.title('Car sales')
+plt.ylabel('year')
+plt.xlabel('numbers in thousands')
+plt.show()
